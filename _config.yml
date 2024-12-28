@@ -6,13 +6,13 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper2/
+baseurl: /tekpeek/
 
 # Website info
-title: Ghost
-description: The professional publishing platform
+title: Tekpeek
+description: Avinash's personal blog page
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
+logo: assets/images/tekpeek.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 CNAME: #add cname for website to be created
