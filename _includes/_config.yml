@@ -9,19 +9,19 @@ words_per_minute: 200
 baseurl: /tekpeek/
 
 # Website info
-title: Tekpeek - Blogs
+title: Tekpeek
 description: Thoughts, Projects and Explorations from Avinash S
 cover: assets/images/tekpeek-cover.jpg
 logo: assets/images/tekpeek-long.png
 logo_dark: assets/images/favicon.png
-favicon: assets/images/tpw.svg
+favicon: assets/images/favicon.png
 CNAME: #add cname for website to be created
 
 # Social info
 navigation: True # show the navbar links
 subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
+# by editing `_includes/Avinash-form.html`
 twitter: kingaiva_ # replace by your username
 linkedin: in/avinash-s-07551a1a0/ #replace by your username
 
