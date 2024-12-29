@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="http://localhost:4000/jasper2/tag/posts-2022/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/jasper2/" rel="alternate" type="text/html" />
-  <updated>2024-12-29T08:17:22+00:00</updated>
-  <id>http://localhost:4000/jasper2/tag/posts-2022/feed.xml</id>
+  <link href="/jasper2/tag/posts-2022/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/jasper2/" rel="alternate" type="text/html" />
+  <updated>2024-12-29T08:48:23+00:00</updated>
+  <id>/jasper2/tag/posts-2022/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Rust gets included in the next linux kernel</title>
-      <link href="http://localhost:4000/jasper2/Rust-in-Linux" rel="alternate" type="text/html" title="Rust gets included in the next linux kernel" />
+      <link href="/jasper2/Rust-in-Linux" rel="alternate" type="text/html" title="Rust gets included in the next linux kernel" />
       <published>2022-09-30T10:18:00+00:00</published>
       <updated>2022-09-30T10:18:00+00:00</updated>
-      <id>http://localhost:4000/jasper2/Rust-in-Linux</id>
-      <content type="html" xml:base="http://localhost:4000/jasper2/Rust-in-Linux">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+      <id>/jasper2/Rust-in-Linux</id>
+      <content type="html" xml:base="/jasper2/Rust-in-Linux">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
 &lt;p&gt;Rust will be utilized in the next version of the Linux kernel, according to Linux Torvalds, the operating system’s founder. Rust inclusion in Linux kernel development was a topic of discussion for several years before it was eventually settled.&lt;/p&gt;
 
 &lt;h1 id=&quot;what-exactly-is-rust-&quot;&gt;What exactly is Rust ?&lt;/h1&gt;
@@ -76,11 +76,11 @@
   
     <entry>
       <title type="html">Mine.com - Data Privacy</title>
-      <link href="http://localhost:4000/jasper2/Data-Privacy-copy" rel="alternate" type="text/html" title="Mine.com - Data Privacy" />
+      <link href="/jasper2/Data-Privacy-copy" rel="alternate" type="text/html" title="Mine.com - Data Privacy" />
       <published>2022-08-30T10:18:00+00:00</published>
       <updated>2022-08-30T10:18:00+00:00</updated>
-      <id>http://localhost:4000/jasper2/Data-Privacy%20copy</id>
-      <content type="html" xml:base="http://localhost:4000/jasper2/Data-Privacy-copy">&lt;h1 id=&quot;data-privacy-&quot;&gt;Data Privacy :&lt;/h1&gt;
+      <id>/jasper2/Data-Privacy%20copy</id>
+      <content type="html" xml:base="/jasper2/Data-Privacy-copy">&lt;h1 id=&quot;data-privacy-&quot;&gt;Data Privacy :&lt;/h1&gt;
 &lt;p&gt;One of the concerns from the last few decades is data privacy. Our data is being sold to many companies right as we read this. One of the main examples that we can observe is the sheer amount of junk mail that we receive. There might be even companies with whom we haven’t even shared any details. There is no way we can completely avoid this situation, but we can shrink our digital footprint. One such method is by demanding these organizations to remove our data, through email. It can be a bit tedious as we have to manually list all these firms and send emails to each one of them.&lt;/p&gt;
 
 &lt;h1 id=&quot;saymine&quot;&gt;SayMine&lt;/h1&gt;

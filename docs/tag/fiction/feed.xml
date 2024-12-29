@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="http://localhost:4000/jasper2/tag/fiction/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/jasper2/" rel="alternate" type="text/html" />
-  <updated>2024-12-29T08:17:22+00:00</updated>
-  <id>http://localhost:4000/jasper2/tag/fiction/feed.xml</id>
+  <link href="/jasper2/tag/fiction/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/jasper2/" rel="alternate" type="text/html" />
+  <updated>2024-12-29T08:48:23+00:00</updated>
+  <id>/jasper2/tag/fiction/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Magic Unleashed! - My Journey through the Interactive Harry Potter Universe with ChatGPT</title>
-      <link href="http://localhost:4000/jasper2/Harry-Potter" rel="alternate" type="text/html" title="Magic Unleashed! - My Journey through the Interactive Harry Potter Universe with ChatGPT" />
+      <link href="/jasper2/Harry-Potter" rel="alternate" type="text/html" title="Magic Unleashed! - My Journey through the Interactive Harry Potter Universe with ChatGPT" />
       <published>2023-05-30T10:18:00+00:00</published>
       <updated>2023-05-30T10:18:00+00:00</updated>
-      <id>http://localhost:4000/jasper2/Harry-Potter</id>
-      <content type="html" xml:base="http://localhost:4000/jasper2/Harry-Potter">&lt;h1 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h1&gt;
+      <id>/jasper2/Harry-Potter</id>
+      <content type="html" xml:base="/jasper2/Harry-Potter">&lt;h1 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h1&gt;
 &lt;p&gt;Fictional universes have long been an intriguing theme for readers, one of which is the universe of magic. One big reason is the fact that we can experience a lot of events that aren’t possible in the real world. Well, who doesn’t know about the wizarding world, and the legendary Harry Potter. Many movies, games, and accessories have been created in order to connect to it. The craze has reached such a level that there are online and offline communities that discuss the possibilities of each character’s alternate decisions and thought processes, apart from those given in the original novels. And with the launch of the game Hogwarts Legacy, the number of discussions has just grown tremendously. The level of detail and the first-person experience that it delivers are immense! Yet it has some limitations; the universe is limited and pre-written. One can only interact with the objects and characters that are already there. So it is good to assume that at some point it is going to get boring, and that will occur once the players have explored almost everything in that limited world.&lt;/p&gt;
 
 &lt;h1 id=&quot;ai-in-the-fictional-world&quot;&gt;AI in the fictional world&lt;/h1&gt;

@@ -4,7 +4,7 @@
     <title> - Articles</title>
     <description>Thoughts, Projects and Explorations from Avinash S</description>
     <link>
-    http://localhost:4000</link>
+    </link>
     
       
       <item>
@@ -17,8 +17,8 @@
         
         <pubDate>Thu, 09 Nov 2023 10:18:00 +0000</pubDate>
         <link>
-        http://localhost:4000/TubeStore</link>
-        <guid isPermaLink="true">http://localhost:4000/TubeStore</guid>
+        /TubeStore</link>
+        <guid isPermaLink="true">/TubeStore</guid>
       </item>
       
     
@@ -33,8 +33,8 @@
         
         <pubDate>Sat, 23 Sep 2023 10:18:00 +0000</pubDate>
         <link>
-        http://localhost:4000/Grub-Boot-Selection</link>
-        <guid isPermaLink="true">http://localhost:4000/Grub-Boot-Selection</guid>
+        /Grub-Boot-Selection</link>
+        <guid isPermaLink="true">/Grub-Boot-Selection</guid>
       </item>
       
     
@@ -49,8 +49,8 @@
         
         <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
         <link>
-        http://localhost:4000/Cloak-and-Commit</link>
-        <guid isPermaLink="true">http://localhost:4000/Cloak-and-Commit</guid>
+        /Cloak-and-Commit</link>
+        <guid isPermaLink="true">/Cloak-and-Commit</guid>
       </item>
       
     
@@ -65,8 +65,8 @@
         
         <pubDate>Mon, 19 Jun 2023 10:18:00 +0000</pubDate>
         <link>
-        http://localhost:4000/Seedr</link>
-        <guid isPermaLink="true">http://localhost:4000/Seedr</guid>
+        /Seedr</link>
+        <guid isPermaLink="true">/Seedr</guid>
       </item>
       
     
@@ -81,8 +81,8 @@
         
         <pubDate>Tue, 30 May 2023 10:18:00 +0000</pubDate>
         <link>
-        http://localhost:4000/Harry-Potter</link>
-        <guid isPermaLink="true">http://localhost:4000/Harry-Potter</guid>
+        /Harry-Potter</link>
+        <guid isPermaLink="true">/Harry-Potter</guid>
       </item>
       
     
@@ -97,8 +97,8 @@
         
         <pubDate>Fri, 06 Jan 2023 10:18:00 +0000</pubDate>
         <link>
-        http://localhost:4000/Cleansweep</link>
-        <guid isPermaLink="true">http://localhost:4000/Cleansweep</guid>
+        /Cleansweep</link>
+        <guid isPermaLink="true">/Cleansweep</guid>
       </item>
       
     
@@ -113,8 +113,8 @@
         
         <pubDate>Fri, 30 Sep 2022 10:18:00 +0000</pubDate>
         <link>
-        http://localhost:4000/Rust-in-Linux</link>
-        <guid isPermaLink="true">http://localhost:4000/Rust-in-Linux</guid>
+        /Rust-in-Linux</link>
+        <guid isPermaLink="true">/Rust-in-Linux</guid>
       </item>
       
     
@@ -129,8 +129,8 @@
         
         <pubDate>Tue, 30 Aug 2022 10:18:00 +0000</pubDate>
         <link>
-        http://localhost:4000/Data-Privacy-copy</link>
-        <guid isPermaLink="true">http://localhost:4000/Data-Privacy-copy</guid>
+        /Data-Privacy-copy</link>
+        <guid isPermaLink="true">/Data-Privacy-copy</guid>
       </item>
       
     
@@ -144,8 +144,8 @@
         
         <pubDate>Wed, 27 Jul 2022 10:00:00 +0000</pubDate>
         <link>
-        http://localhost:4000/welcome</link>
-        <guid isPermaLink="true">http://localhost:4000/welcome</guid>
+        /welcome</link>
+        <guid isPermaLink="true">/welcome</guid>
       </item>
       
     
