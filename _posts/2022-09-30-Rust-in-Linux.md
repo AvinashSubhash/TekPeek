@@ -5,12 +5,13 @@ cover: 'assets/images/rust.png'
 navigation: True
 title: Rust gets included in the next linux kernel
 date: 2022-09-30 10:18:00
-tags: fiction
+tags: posts-2022
 class: post-template
 subclass: 'post'
 author: Avinash
 ---
 
+## Introduction : 
 Rust will be utilized in the next version of the Linux kernel, according to Linux Torvalds, the operating system's founder. Rust inclusion in Linux kernel development was a topic of discussion for several years before it was eventually settled.
 
 # What exactly is Rust ?

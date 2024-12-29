@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/jasper2/tag/started/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/jasper2/" rel="alternate" type="text/html" />
+  <updated>2024-12-29T08:17:22+00:00</updated>
+  <id>http://localhost:4000/jasper2/tag/started/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Tekpeek - Blogs | </title>
+  
+
+  
+    <subtitle>Thoughts, Projects and Explorations from Avinash S</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Welcome to TekPeek!</title>
+      <link href="http://localhost:4000/jasper2/welcome" rel="alternate" type="text/html" title="Welcome to TekPeek!" />
+      <published>2022-07-27T10:00:00+00:00</published>
+      <updated>2022-07-27T10:00:00+00:00</updated>
+      <id>http://localhost:4000/jasper2/welcome</id>
+      <content type="html" xml:base="http://localhost:4000/jasper2/welcome">&lt;p&gt;Hello, and welcome to TekPeek! Your gateway to exploring the tech world through fresh perspectives and hands-on insights!&lt;/p&gt;
+
+&lt;p&gt;At TekPeek, we’re all about diving deep into technology, sharing knowledge, and sparking curiosity. Here, you’ll find:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In-Depth Blogs: Thoughtful write-ups on tech trends, concepts, and practical solutions.&lt;/li&gt;
+  &lt;li&gt;Tool Introductions: A closer look at the tools I’ve created, their functionalities, and how they can make your tasks easier.&lt;/li&gt;
+  &lt;li&gt;Hidden Gems: Discover websites and resources that can save you time, boost productivity, or simply make your tech life more fun.&lt;/li&gt;
+  &lt;li&gt;Technical Views: My take on industry developments and innovative solutions to tackle challenges.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This space is for tech enthusiasts, creators, and learners alike – a place to explore, experiment, and expand horizons. I’m excited to share my journey with you and would love to hear your thoughts, feedback, and ideas.&lt;/p&gt;
+
+&lt;p&gt;Let’s learn and grow together. Happy exploring! 😊&lt;/p&gt;
+
+&lt;p&gt;Stay tuned,&lt;/p&gt;
+
+&lt;p&gt;Avinash S&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Avinash</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Getting" />
+      
+        <category term="started" />
+      
+
+      
+        <summary type="html">Hello, and welcome to TekPeek! Your gateway to exploring the tech world through fresh perspectives and hands-on insights!</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

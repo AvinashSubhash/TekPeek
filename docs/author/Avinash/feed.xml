@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="/jasper2/author/Avinash/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="/jasper2/" rel="alternate" type="text/html" />
-  <updated>2024-12-28T18:47:52+00:00</updated>
-  <id>/jasper2/author/Avinash/feed.xml</id>
+  <link href="http://localhost:4000/jasper2/author/Avinash/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/jasper2/" rel="alternate" type="text/html" />
+  <updated>2024-12-29T08:17:22+00:00</updated>
+  <id>http://localhost:4000/jasper2/author/Avinash/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">TubeStore - Free Youtube Storage</title>
-      <link href="/jasper2/TubeStore" rel="alternate" type="text/html" title="TubeStore - Free Youtube Storage" />
+      <link href="http://localhost:4000/jasper2/TubeStore" rel="alternate" type="text/html" title="TubeStore - Free Youtube Storage" />
       <published>2023-11-09T10:18:00+00:00</published>
       <updated>2023-11-09T10:18:00+00:00</updated>
-      <id>/jasper2/TubeStore</id>
-      <content type="html" xml:base="/jasper2/TubeStore">&lt;h1 id=&quot;cloud-storage&quot;&gt;Cloud Storage&lt;/h1&gt;
+      <id>http://localhost:4000/jasper2/TubeStore</id>
+      <content type="html" xml:base="http://localhost:4000/jasper2/TubeStore">&lt;h1 id=&quot;cloud-storage&quot;&gt;Cloud Storage&lt;/h1&gt;
 &lt;p&gt;Cloud storage subscriptions are in high demand due to the exponential growth of data generation. With the advent of digital technology, data production has increased tremendously, leading to a need for more storage capacity. You may have experienced a situation where your Google Drive or other cloud storage shows a warning of reaching its limits. To get more storage, you need to pay more, and this can be quite expensive.&lt;/p&gt;
 
 &lt;p&gt;Within these vast amounts of data, we often have some items that are not accessed frequently, but that we still need for possible future use or as a memory to keep with ourselves. However, you may not have considered YouTube’s storage and its growing number of content creators. YouTube handles a significant amount of data daily, mostly videos from these content creators, and it doesn’t charge any money for that. What if we could use that storage for our data too? Of course, we’re not trying to steal YouTube’s storage, but merely suggesting an idea of how we could make use of it.&lt;/p&gt;
@@ -76,7 +76,9 @@
       
 
       
-        <category term="fiction" />
+        <category term="posts-2023" />
+      
+        <category term="tools" />
       
 
       
@@ -88,12 +90,331 @@
     </entry>
   
     <entry>
+      <title type="html">How to Make GRUB Remember Your Last Selection on Boot</title>
+      <link href="http://localhost:4000/jasper2/Grub-Boot-Selection" rel="alternate" type="text/html" title="How to Make GRUB Remember Your Last Selection on Boot" />
+      <published>2023-09-23T10:18:00+00:00</published>
+      <updated>2023-09-23T10:18:00+00:00</updated>
+      <id>http://localhost:4000/jasper2/Grub-Boot-Selection</id>
+      <content type="html" xml:base="http://localhost:4000/jasper2/Grub-Boot-Selection">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+&lt;p&gt;GRUB is an essential part of most Linux systems, responsible for managing the boot process and allowing you to choose which operating system to boot into when you start your computer. By default, GRUB usually selects the first entry in the boot menu. However, many users prefer to make GRUB remember their last selection to streamline the boot process. In this tutorial, we’ll walk you through the steps to configure GRUB to remember its last selection on boot.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-1-opening-the-grub-configuration-file&quot;&gt;Step 1: Opening the GRUB Configuration File&lt;/h2&gt;
+&lt;p&gt;The first step is to open the GRUB configuration file, which is located at /etc/default/grub. You’ll need superuser (root) privileges to edit this file, so use a text editor like ‘nano’ or ‘vi’ with the ‘sudo’ command&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo nano /etc/default/grub&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-2-setting-the-value-of-grub_default-tosaved&quot;&gt;Step 2: Setting the Value of GRUB_DEFAULT to ’saved’&lt;/h2&gt;
+&lt;p&gt;Inside the configuration file, you’ll find various GRUB settings. Look for the GRUB_DEFAULT variable. By default, it may be set to a numerical value, such as 0 for the first menu entry. Change it to:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB_DEFAULT=saved&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-3-setting-the-value-of-grub_savedefault-totrue&quot;&gt;Step 3: Setting the Value of GRUB_SAVEDEFAULT to ’true’&lt;/h2&gt;
+&lt;p&gt;Next, find the GRUB_SAVEDEFAULT variable in the configuration file. If it’s not present, you can add it. Set its value to ‘true’&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB_SAVEDEFAULT=true&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-4-saving-thefile&quot;&gt;Step 4: Saving the File&lt;/h2&gt;
+&lt;p&gt;After making these changes, save the GRUB configuration file and exit your text editor. In ‘nano,’ you can do this by pressing Ctrl + O to save and Ctrl + X to exit. In ‘vi,’ you can save by pressing Esc, then typing :wq, and hitting Enter.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-5-generate-the-grub-configuration-file&quot;&gt;Step 5: Generate the GRUB Configuration File&lt;/h2&gt;
+&lt;p&gt;The final step is to generate the GRUB configuration file using the grub-mkconfig command. This command will take the changes you made to /etc/default/grub and apply them to the actual GRUB configuration&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo grub-mkconfig -o /boot/grub/grub.cfg&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This command rebuilds the GRUB configuration file located at /boot/grub/grub.cfg. After running this command, GRUB will remember your last selection and use it as the default entry during the next boot.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Configuring GRUB to remember its last selection on boot can be a time-saver and a convenient feature for those who frequently switch between different operating systems or boot options. By following the steps outlined in this guide, you can easily make GRUB remember your last selection and improve your overall boot experience on your Linux system.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Avinash</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="posts-2023" />
+      
+
+      
+        <summary type="html">Introduction : GRUB is an essential part of most Linux systems, responsible for managing the boot process and allowing you to choose which operating system to boot into when you start your computer. By default, GRUB usually selects the first entry in the boot menu. However, many users prefer to make GRUB remember their last selection to streamline the boot process. In this tutorial, we’ll walk you through the steps to configure GRUB to remember its last selection on boot.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Cloak and Commit - Concealing Confidential Data with Local Git Repositories in Linux</title>
+      <link href="http://localhost:4000/jasper2/Cloak-and-Commit" rel="alternate" type="text/html" title="Cloak and Commit - Concealing Confidential Data with Local Git Repositories in Linux" />
+      <published>2023-06-30T00:00:00+00:00</published>
+      <updated>2023-06-30T00:00:00+00:00</updated>
+      <id>http://localhost:4000/jasper2/Cloak-and-Commit</id>
+      <content type="html" xml:base="http://localhost:4000/jasper2/Cloak-and-Commit">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+&lt;p&gt;In the world of version control systems, Git has emerged as a popular and versatile tool for managing source code. However, its capabilities extend beyond code management. In this article, we will explore a unique application of Git: using a local repository to hide sensitive data in Linux. By leveraging the branch and access control features of Git, we can create a secure environment where only the root user can access the hidden branch and its concealed files.&lt;/p&gt;
+
+&lt;h2 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;To follow the steps outlined in this article, you need to have Git installed on your Linux machine. You can install Git by running the appropriate package manager command for your distribution.&lt;/p&gt;
+
+&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step 1: Initializing a Local Git Repository
+Open a terminal and navigate to the directory where you want to create the local repository.
+Run the command git init to initialize a new Git repository in the current directory.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step 2: Create a Branch for Hidden Data
+Run the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git checkout -b hidden&lt;/code&gt; to create a new branch called “hidden” and switch to it. This branch will serve as the container for our concealed files.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step 3: Hiding Files
+Move or copy the files you wish to conceal into the current directory. These files can be of any type, such as documents, images, or archives. Run the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git add \&amp;lt;file1\&amp;gt; \&amp;lt;file2\&amp;gt; ...&lt;/code&gt; to stage the files for the next commit. Replace &lt;file1&gt;, &lt;file2&gt;, etc., with the names of the files you want to hide. Run the command ```git commit -m &quot;Hidden files&quot;``` to commit the changes and create a snapshot of the hidden files in the hidden branch.&lt;/file2&gt;&lt;/file1&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step 4: Restricting Access to the .git Folder
+Run the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo chown root -R .git/&lt;/code&gt; to set root as the owner of the .git folder. Run the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo chmod 700 -R .git/&lt;/code&gt; to set the permissions of the .git folder to allow only the root user to access it. This ensures that only the root user can modify the branch containing the hidden files.
+Accessing the Hidden Files&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To access the concealed files in the hidden branch, you need root privileges. Follow these steps:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open a terminal and navigate to the directory where the local Git repository is located.&lt;/li&gt;
+  &lt;li&gt;Run the command sudo git checkout hidden to switch to the hidden branch.&lt;/li&gt;
+  &lt;li&gt;The hidden files will now be available for viewing, editing, or extraction within the repository directory.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;important-considerations&quot;&gt;Important Considerations&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Always exercise caution when handling sensitive data. Ensure that you comply with applicable laws and regulations regarding data privacy and protection.&lt;/li&gt;
+  &lt;li&gt;Regularly back up your data, including the hidden branch, to prevent accidental loss.&lt;/li&gt;
+  &lt;li&gt;Be mindful that concealing files in a Git repository does not provide encryption or strong security measures. It is primarily intended as a means of restricting access to authorized users.&lt;/li&gt;
+  &lt;li&gt;Addressing the question of why not simply set the entire folder to root access, it is essential to clarify that this method focuses on concealing files within the folder while still allowing access, rather than completely blocking access to the folder itself.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Using a local Git repository to hide data in Linux can be a creative and effective way to maintain confidentiality. By creating a separate branch and restricting access to the .git folder, only the root user can modify or access the hidden files. However, it is crucial to understand that this method does not provide encryption or robust security. It should be seen as an additional layer of access control rather than a substitute for proper data protection measures.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Avinash</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="posts-2023" />
+      
+
+      
+        <summary type="html">Introduction : In the world of version control systems, Git has emerged as a popular and versatile tool for managing source code. However, its capabilities extend beyond code management. In this article, we will explore a unique application of Git: using a local repository to hide sensitive data in Linux. By leveraging the branch and access control features of Git, we can create a secure environment where only the root user can access the hidden branch and its concealed files.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Seedr - The Ultimate Cloud-Based Torrent Client for Seamless Downloading and Streaming</title>
+      <link href="http://localhost:4000/jasper2/Seedr" rel="alternate" type="text/html" title="Seedr - The Ultimate Cloud-Based Torrent Client for Seamless Downloading and Streaming" />
+      <published>2023-06-19T10:18:00+00:00</published>
+      <updated>2023-06-19T10:18:00+00:00</updated>
+      <id>http://localhost:4000/jasper2/Seedr</id>
+      <content type="html" xml:base="http://localhost:4000/jasper2/Seedr">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+&lt;p&gt;In the digital age, torrents have become a popular way to share and distribute large files. However, traditional torrenting methods often require the download of files to a local computer, which can be cumbersome and time-consuming. Seedr, a revolutionary cloud-based platform, has emerged as a game-changer in the world of torrenting. In this comprehensive article, we will delve into the features, benefits, and functionality of Seedr, exploring how it simplifies the torrenting experience and provides seamless downloading and streaming capabilities.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Concept of Seedr: Seedr introduces a novel concept in torrenting by offering a cloud-based solution. Instead of downloading torrents to your local machine, Seedr enables users to access and manage torrents directly from their web browser or mobile device. This cloud-centric approach eliminates the need for torrent clients and ensures convenience, speed, and security.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;User-Friendly Interface: Seedr boasts a user-friendly and intuitive interface that makes torrenting accessible to both novice and experienced users. Navigating through the platform is a breeze, thanks to its well-organized layout and straightforward design. Whether you are searching for torrents, managing files, or configuring settings, Seedr offers a seamless experience.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;High-Speed Torrent Downloads: One of the standout features of Seedr is its lightning-fast download speeds. With high-speed servers and optimized protocols, Seedr maximizes the download speed of torrents, significantly reducing the time required for file transfers. This feature is particularly beneficial for users who want to access large files quickly or stream media content in real time.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Unlimited Bandwidth: Seedr eliminates the limitations associated with traditional torrenting by offering unlimited bandwidth to its users. This means you can download and stream torrents without worrying about hitting data caps or facing speed throttling. The unlimited bandwidth feature allows for a smooth and uninterrupted torrenting experience.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cloud Storage Integration: Seedr leverages the power of cloud storage, providing users with a convenient way to store and access their files. Once a torrent is added to Seedr, the files are securely stored in the cloud. This eliminates the need to occupy local storage space, allowing users to save valuable disk space on their devices. Additionally, cloud storage ensures that files are accessible from any device with an internet connection, enabling seamless file management and accessibility.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Privacy and Security: Seedr prioritizes user privacy and security. By using Seedr as a cloud-based torrent client, users can enjoy an added layer of privacy. Seedr shields the IP address of its users, ensuring their online activities remain anonymous. Furthermore, the platform employs secure encryption protocols to protect data integrity and prevent unauthorized access to user files.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Streaming Capabilities: Seedr goes beyond conventional torrenting by offering streaming capabilities. Once a torrent is added to Seedr, users can stream media files directly from the platform, eliminating the need to download the entire file before accessing it. Whether it’s a movie, TV show, or music album, Seedr enables users to enjoy their favorite media content in real-time, enhancing the overall user experience.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cross-Platform Compatibility: Seedr is designed to be cross-platform compatible, supporting various operating systems and devices. Whether you prefer Windows, macOS, Linux, or mobile platforms like iOS and Android, Seedr ensures a seamless torrenting experience across all devices. This flexibility allows users to access and manage their torrents on the go, providing convenience and accessibility.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Collaboration and Sharing: Seedr offers collaboration and sharing features, making sharing files easy. Users can create folders, invite collaborators, and share files securely with friends, colleagues, or clients. This functionality is particularly beneficial for collaborative projects, allowing team members to access and work on shared files effortlessly.
+Additional Features: Seedr provides a range of other features to enhance the torrenting experience. Some notable features include a built-in video player for streaming media, the ability to extract compressed files directly on the platform, and the option to schedule downloads at preferred times. These additional features make Seedr a comprehensive and versatile torrenting solution.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Seedr has revolutionized torrenting with its cloud-based approach, offering seamless downloading and streaming capabilities. With its user-friendly interface, high-speed downloads, unlimited bandwidth, cloud storage integration, privacy and security measures, and cross-platform compatibility, Seedr provides a superior torrenting experience. Whether you’re a torrenting enthusiast, a content creator, or a team collaborating on files, Seedr offers a powerful and convenient solution to manage and access torrents effortlessly.&lt;/p&gt;
+
+&lt;p&gt;Seedr Offical website — https://www.seedr.cc/&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Avinash</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="tools" />
+      
+        <category term="posts-2023" />
+      
+
+      
+        <summary type="html">Introduction : In the digital age, torrents have become a popular way to share and distribute large files. However, traditional torrenting methods often require the download of files to a local computer, which can be cumbersome and time-consuming. Seedr, a revolutionary cloud-based platform, has emerged as a game-changer in the world of torrenting. In this comprehensive article, we will delve into the features, benefits, and functionality of Seedr, exploring how it simplifies the torrenting experience and provides seamless downloading and streaming capabilities.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Magic Unleashed! - My Journey through the Interactive Harry Potter Universe with ChatGPT</title>
+      <link href="http://localhost:4000/jasper2/Harry-Potter" rel="alternate" type="text/html" title="Magic Unleashed! - My Journey through the Interactive Harry Potter Universe with ChatGPT" />
+      <published>2023-05-30T10:18:00+00:00</published>
+      <updated>2023-05-30T10:18:00+00:00</updated>
+      <id>http://localhost:4000/jasper2/Harry-Potter</id>
+      <content type="html" xml:base="http://localhost:4000/jasper2/Harry-Potter">&lt;h1 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h1&gt;
+&lt;p&gt;Fictional universes have long been an intriguing theme for readers, one of which is the universe of magic. One big reason is the fact that we can experience a lot of events that aren’t possible in the real world. Well, who doesn’t know about the wizarding world, and the legendary Harry Potter. Many movies, games, and accessories have been created in order to connect to it. The craze has reached such a level that there are online and offline communities that discuss the possibilities of each character’s alternate decisions and thought processes, apart from those given in the original novels. And with the launch of the game Hogwarts Legacy, the number of discussions has just grown tremendously. The level of detail and the first-person experience that it delivers are immense! Yet it has some limitations; the universe is limited and pre-written. One can only interact with the objects and characters that are already there. So it is good to assume that at some point it is going to get boring, and that will occur once the players have explored almost everything in that limited world.&lt;/p&gt;
+
+&lt;h1 id=&quot;ai-in-the-fictional-world&quot;&gt;AI in the fictional world&lt;/h1&gt;
+&lt;p&gt;The internet is booming with generative AI. People are using it for almost everything. And as expected, even I am using it for understanding and analyzing my ideas, doubts, and problems. One of those was regarding building a fictional character for my story. I gave a prompt mentioning the thoughts I had about a specific fictional character I wanted to build, and the AI suggested some circumstances that could add to its background. This gave me an idea: what if we could ask the AI to build a complete character instead of its backgrounds? And if that is possible, the AI is capable enough to build several characters and even non-human elements. And if we merge this idea with the pre-existing knowledge of the wizarding world, it can create wonders! A twin brother of Harry Potter? A Horcrux that violated the rules of magic and remained hidden? Or perhaps an event in the past — what if Harry’s mother wasn’t killed? The possibilities are endless! With all these thoughts in my mind, I decided to give it a try. This article is about the short experience I had in ChatGPT’s wizarding world.&lt;/p&gt;
+
+&lt;h1 id=&quot;chatgpts-hogwarts&quot;&gt;ChatGPT’s Hogwarts&lt;/h1&gt;
+&lt;p&gt;To initiate an interaction with the wizarding world, I had to make it summarize the whole Harry Potter series at the beginning. That gave better results, as the universe’s details were present in the chat. Then I went forward, explaining that I wanted to introduce a new fictional character into that world. The AI understood it and took information regarding the character, such as name and interests. As I wanted good control over the character and scenes, I decided to start with the prompt about the arrival of an owl with a letter. I was surprised to see the detail of the letter, as it even explained the four symbols of the houses that were present in the seal of Hogwarts. I also interacted with the owl, feeding it some food, to which it responded with a hoot after finishing it. The letter then directed me to answer to this mail by returning another letter to the same owl with my acceptance or rejection of this offer.&lt;/p&gt;
+
+&lt;p&gt;And then I was instructed to go to Diagon Alley in London if I chose to go to Hogwarts. Not knowing how to get there, I walked outside my home. The AI took control over here and made me get on a special bus. I suppose it was the flying bus. The bus then went to London and stopped right in front of Diagon Alley, something that was different from the methods of going to Diagon Alley in the books. At this point, the AI became a bit vague, giving me control to head towards any shop that I wanted. But I just mentioned the list of things that I need to buy, and it took me to Ollivander’s shop. But there’s a difference. This shop sells all the basic items for the school of wizardry: notebooks, potion ingredients, cloaks, and even cauldrons. On asking the shopkeeper about the wand, he took out a few of the wands for me, including the one with the Phoenix feather core. I could get good control over the Phoenix feather core wand, so the shopkeeper offered me that.&lt;/p&gt;
+
+&lt;p&gt;I got out of the shop after buying all the items. Oh, wait, I forgot to tell you something. I also had a doubt about how I’d pay for these. When I asked AI about this, it said that the School of Wizardry is taking care of all the expenses. Umm . . .Okay, but I was expecting some huge locker in Gringotts for me :-(&lt;/p&gt;
+
+&lt;p&gt;Well, now I had everything except one — a pet! and I need one! So I asked AI about this, and Whoosh! Suddenly, a salesman appeared in front of me and guided me to a pet shop. I’m a cat guy, so I decided to go with a cat, and damn! There are some good breeds available. AI told me that there are eight varieties of cats available in the magical world, aPart-2 coming soon …nd I chose a Bengal cat for myself. Then I strolled around the alley to find a tag for my cat. Here the AI took control and led me to a store, where the shopkeeper gave a name to my cat, “Luna”, and handed over a cat tag to me. So now I’m finally all ready for Hogwarts!&lt;/p&gt;
+
+&lt;h1 id=&quot;back-to-reality&quot;&gt;Back to Reality&lt;/h1&gt;
+&lt;p&gt;Alright, so this was the brief text-based tour that I got from chatGPT. The experience was pretty good, with some minor issues. One of them is that the AI takes control of the story and puts it in fast-forward mode if my prompts are vague. I’ll try to cover these issues during my next conversation.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Part-2 coming soon …&lt;/em&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Avinash</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="fiction" />
+      
+
+      
+        <summary type="html">Introduction : Fictional universes have long been an intriguing theme for readers, one of which is the universe of magic. One big reason is the fact that we can experience a lot of events that aren’t possible in the real world. Well, who doesn’t know about the wizarding world, and the legendary Harry Potter. Many movies, games, and accessories have been created in order to connect to it. The craze has reached such a level that there are online and offline communities that discuss the possibilities of each character’s alternate decisions and thought processes, apart from those given in the original novels. And with the launch of the game Hogwarts Legacy, the number of discussions has just grown tremendously. The level of detail and the first-person experience that it delivers are immense! Yet it has some limitations; the universe is limited and pre-written. One can only interact with the objects and characters that are already there. So it is good to assume that at some point it is going to get boring, and that will occur once the players have explored almost everything in that limited world.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">CleanSweep - An Arch Linux tool to clean system, home directory cache, and duplicate files.</title>
+      <link href="http://localhost:4000/jasper2/Cleansweep" rel="alternate" type="text/html" title="CleanSweep - An Arch Linux tool to clean system, home directory cache, and duplicate files." />
+      <published>2023-01-06T10:18:00+00:00</published>
+      <updated>2023-01-06T10:18:00+00:00</updated>
+      <id>http://localhost:4000/jasper2/Cleansweep</id>
+      <content type="html" xml:base="http://localhost:4000/jasper2/Cleansweep">&lt;h1 id=&quot;what-exactly-is-cleansweep--&quot;&gt;What exactly is CleanSweep ? :&lt;/h1&gt;
+&lt;p&gt;CleanSweep is a TUI program that helps newbie Arch Linux users to cleanup their system and clear up their precious memory. CleanSweep gives out a step by step process to user to the user with the ability for the user to skip a particular step.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-did-i-create-this-tool-&quot;&gt;Why did I create this tool ?&lt;/h1&gt;
+
+&lt;p&gt;In Arch Linux, as with any operating system, increasing cache memory can potentially improve system performance by allowing the system to store frequently accessed data in fast memory that can be quickly accessed. However, there are also potential drawbacks to increasing cache memory.&lt;/p&gt;
+
+&lt;p&gt;One potential problem with increasing cache memory is that it can potentially consume a large amount of physical memory, which could lead to increased competition for memory resources and potentially decreased performance if there is not enough available physical memory to meet the system’s needs. Additionally, increasing cache memory may not always provide a noticeable improvement in performance, and in some cases it may even lead to decreased performance due to increased memory pressure.&lt;/p&gt;
+
+&lt;p&gt;If we go the manual way, we have to run several commands with pacman to clen cache, removed duplicate files etc, but with this one tool, we can go through all the cleaning process step by step with the ability to skip a particular step if not interested.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-do-i-use-this-&quot;&gt;How do I use this ?&lt;/h1&gt;
+
+&lt;p&gt;I’ts pretty simple, go to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://github.com/AvinashSubhash/CleanSweep&lt;/code&gt; and follow the inctrustions written there.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Avinash</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="tools" />
+      
+        <category term="posts-2023" />
+      
+
+      
+        <summary type="html">What exactly is CleanSweep ? : CleanSweep is a TUI program that helps newbie Arch Linux users to cleanup their system and clear up their precious memory. CleanSweep gives out a step by step process to user to the user with the ability for the user to skip a particular step.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Rust gets included in the next linux kernel</title>
-      <link href="/jasper2/Rust-in-Linux" rel="alternate" type="text/html" title="Rust gets included in the next linux kernel" />
+      <link href="http://localhost:4000/jasper2/Rust-in-Linux" rel="alternate" type="text/html" title="Rust gets included in the next linux kernel" />
       <published>2022-09-30T10:18:00+00:00</published>
       <updated>2022-09-30T10:18:00+00:00</updated>
-      <id>/jasper2/Rust-in-Linux</id>
-      <content type="html" xml:base="/jasper2/Rust-in-Linux">&lt;p&gt;Rust will be utilized in the next version of the Linux kernel, according to Linux Torvalds, the operating system’s founder. Rust inclusion in Linux kernel development was a topic of discussion for several years before it was eventually settled.&lt;/p&gt;
+      <id>http://localhost:4000/jasper2/Rust-in-Linux</id>
+      <content type="html" xml:base="http://localhost:4000/jasper2/Rust-in-Linux">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+&lt;p&gt;Rust will be utilized in the next version of the Linux kernel, according to Linux Torvalds, the operating system’s founder. Rust inclusion in Linux kernel development was a topic of discussion for several years before it was eventually settled.&lt;/p&gt;
 
 &lt;h1 id=&quot;what-exactly-is-rust-&quot;&gt;What exactly is Rust ?&lt;/h1&gt;
 
@@ -118,11 +439,11 @@
       
 
       
-        <category term="fiction" />
+        <category term="posts-2022" />
       
 
       
-        <summary type="html">Rust will be utilized in the next version of the Linux kernel, according to Linux Torvalds, the operating system’s founder. Rust inclusion in Linux kernel development was a topic of discussion for several years before it was eventually settled.</summary>
+        <summary type="html">Introduction : Rust will be utilized in the next version of the Linux kernel, according to Linux Torvalds, the operating system’s founder. Rust inclusion in Linux kernel development was a topic of discussion for several years before it was eventually settled.</summary>
       
 
       
@@ -130,27 +451,19 @@
     </entry>
   
     <entry>
-      <title type="html">Welcome to Ghost</title>
-      <link href="/jasper2/welcome" rel="alternate" type="text/html" title="Welcome to Ghost" />
-      <published>2017-07-27T10:00:00+00:00</published>
-      <updated>2017-07-27T10:00:00+00:00</updated>
-      <id>/jasper2/welcome</id>
-      <content type="html" xml:base="/jasper2/welcome">&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
+      <title type="html">Mine.com - Data Privacy</title>
+      <link href="http://localhost:4000/jasper2/Data-Privacy-copy" rel="alternate" type="text/html" title="Mine.com - Data Privacy" />
+      <published>2022-08-30T10:18:00+00:00</published>
+      <updated>2022-08-30T10:18:00+00:00</updated>
+      <id>http://localhost:4000/jasper2/Data-Privacy%20copy</id>
+      <content type="html" xml:base="http://localhost:4000/jasper2/Data-Privacy-copy">&lt;h1 id=&quot;data-privacy-&quot;&gt;Data Privacy :&lt;/h1&gt;
+&lt;p&gt;One of the concerns from the last few decades is data privacy. Our data is being sold to many companies right as we read this. One of the main examples that we can observe is the sheer amount of junk mail that we receive. There might be even companies with whom we haven’t even shared any details. There is no way we can completely avoid this situation, but we can shrink our digital footprint. One such method is by demanding these organizations to remove our data, through email. It can be a bit tedious as we have to manually list all these firms and send emails to each one of them.&lt;/p&gt;
 
-&lt;p&gt;We know that first impressions are important, so we’ve populated your new site with some initial &lt;strong&gt;Getting Started&lt;/strong&gt; posts that will help you get familiar with everything in no time. This is the first one!&lt;/p&gt;
+&lt;h1 id=&quot;saymine&quot;&gt;SayMine&lt;/h1&gt;
+&lt;p&gt;And here we have this efficient tool named SayMine. It is a web application focused on reducing the digital footprints of individuals, especially removing our data from organizations/services that we no longer use. This application automatically lists out all the organizations that are holding our data. It gives a one-click method to automatically send emails to these companies for our data removal. Thus we can decide which companies can keep our data.&lt;/p&gt;
 
-&lt;h3 id=&quot;there-are-a-few-things-that-you-should-know-up-front&quot;&gt;There are a few things that you should know up-front:&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That’s who it works best for. If you’re using Ghost for some other purpose, that’s fine too - but it might not be the best choice for you.&lt;/li&gt;
-  &lt;li&gt;The entire platform can be modified and customized to suit your needs, which is very powerful, but doing so &lt;strong&gt;does&lt;/strong&gt; require some knowledge of code. Ghost is not necessarily a good platform for beginners or people who just want a simple personal blog.&lt;/li&gt;
-  &lt;li&gt;For the best experience we recommend downloading the Ghost Desktop App for your computer, which is the best way to access your Ghost site on a desktop device.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Ghost is made by an independent non-profit organisation called the Ghost Foundation. We are 100% self funded by revenue from our &lt;a href=&quot;https://ghost.org/pricing&quot;&gt;Ghost(Pro)&lt;/a&gt; service, and every penny we make is re-invested into funding further development of free, open source technology for modern journalism.&lt;/p&gt;
-
-&lt;p&gt;The main thing you’ll want to read about next is probably: &lt;a href=&quot;https://demo.ghost.io/the-editor/&quot;&gt;the Ghost editor&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Once you’re done reading, you can simply delete the default &lt;strong&gt;Ghost&lt;/strong&gt; user from your team to remove all of these introductory posts!&lt;/p&gt;</content>
+&lt;h1 id=&quot;junk-reduction&quot;&gt;Junk Reduction&lt;/h1&gt;
+&lt;p&gt;With the help of SayMine we can significantly reduce the junk in our mailboxes. You can know more about this application at saymine.com&lt;/p&gt;</content>
 
       
       
@@ -167,13 +480,66 @@
       
 
       
-        <category term="Getting started" />
+        <category term="tools" />
       
-        <category term="posts-2023" />
+        <category term="posts-2022" />
       
 
       
-        <summary type="html">Hey! Welcome to Ghost, it’s great to have you :)</summary>
+        <summary type="html">Data Privacy : One of the concerns from the last few decades is data privacy. Our data is being sold to many companies right as we read this. One of the main examples that we can observe is the sheer amount of junk mail that we receive. There might be even companies with whom we haven’t even shared any details. There is no way we can completely avoid this situation, but we can shrink our digital footprint. One such method is by demanding these organizations to remove our data, through email. It can be a bit tedious as we have to manually list all these firms and send emails to each one of them.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Welcome to TekPeek!</title>
+      <link href="http://localhost:4000/jasper2/welcome" rel="alternate" type="text/html" title="Welcome to TekPeek!" />
+      <published>2022-07-27T10:00:00+00:00</published>
+      <updated>2022-07-27T10:00:00+00:00</updated>
+      <id>http://localhost:4000/jasper2/welcome</id>
+      <content type="html" xml:base="http://localhost:4000/jasper2/welcome">&lt;p&gt;Hello, and welcome to TekPeek! Your gateway to exploring the tech world through fresh perspectives and hands-on insights!&lt;/p&gt;
+
+&lt;p&gt;At TekPeek, we’re all about diving deep into technology, sharing knowledge, and sparking curiosity. Here, you’ll find:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In-Depth Blogs: Thoughtful write-ups on tech trends, concepts, and practical solutions.&lt;/li&gt;
+  &lt;li&gt;Tool Introductions: A closer look at the tools I’ve created, their functionalities, and how they can make your tasks easier.&lt;/li&gt;
+  &lt;li&gt;Hidden Gems: Discover websites and resources that can save you time, boost productivity, or simply make your tech life more fun.&lt;/li&gt;
+  &lt;li&gt;Technical Views: My take on industry developments and innovative solutions to tackle challenges.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This space is for tech enthusiasts, creators, and learners alike – a place to explore, experiment, and expand horizons. I’m excited to share my journey with you and would love to hear your thoughts, feedback, and ideas.&lt;/p&gt;
+
+&lt;p&gt;Let’s learn and grow together. Happy exploring! 😊&lt;/p&gt;
+
+&lt;p&gt;Stay tuned,&lt;/p&gt;
+
+&lt;p&gt;Avinash S&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Avinash</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Getting" />
+      
+        <category term="started" />
+      
+
+      
+        <summary type="html">Hello, and welcome to TekPeek! Your gateway to exploring the tech world through fresh perspectives and hands-on insights!</summary>
       
 
       

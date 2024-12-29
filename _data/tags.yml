@@ -18,3 +18,11 @@ posts-2023:
   name: posts-2023
   description: False
   cover: False
+posts-2022:
+  name: posts-2022
+  description: False
+  cover: False
+tools:
+  name: tools
+  description: False
+  cover: False

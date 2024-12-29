@@ -4,7 +4,7 @@
     <title> - Articles</title>
     <description>Thoughts, Projects and Explorations from Avinash S</description>
     <link>
-    </link>
+    http://localhost:4000</link>
     
       
       <item>
@@ -17,8 +17,88 @@
         
         <pubDate>Thu, 09 Nov 2023 10:18:00 +0000</pubDate>
         <link>
-        /TubeStore</link>
-        <guid isPermaLink="true">/TubeStore</guid>
+        http://localhost:4000/TubeStore</link>
+        <guid isPermaLink="true">http://localhost:4000/TubeStore</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>How to Make GRUB Remember Your Last Selection on Boot</title>
+        
+          <description>&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+&lt;p&gt;GRUB is an essential part of most Linux systems, responsible for managing the boot process and allowing you to choose which operating system to boot into when you start your computer. By default, GRUB usually selects the first entry in the boot menu. However, many users prefer to make GRUB remember their last selection to streamline the boot process. In this tutorial, we’ll walk you through the steps to configure GRUB to remember its last selection on boot.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 23 Sep 2023 10:18:00 +0000</pubDate>
+        <link>
+        http://localhost:4000/Grub-Boot-Selection</link>
+        <guid isPermaLink="true">http://localhost:4000/Grub-Boot-Selection</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Cloak and Commit - Concealing Confidential Data with Local Git Repositories in Linux</title>
+        
+          <description>&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+&lt;p&gt;In the world of version control systems, Git has emerged as a popular and versatile tool for managing source code. However, its capabilities extend beyond code management. In this article, we will explore a unique application of Git: using a local repository to hide sensitive data in Linux. By leveraging the branch and access control features of Git, we can create a secure environment where only the root user can access the hidden branch and its concealed files.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+        <link>
+        http://localhost:4000/Cloak-and-Commit</link>
+        <guid isPermaLink="true">http://localhost:4000/Cloak-and-Commit</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Seedr - The Ultimate Cloud-Based Torrent Client for Seamless Downloading and Streaming</title>
+        
+          <description>&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+&lt;p&gt;In the digital age, torrents have become a popular way to share and distribute large files. However, traditional torrenting methods often require the download of files to a local computer, which can be cumbersome and time-consuming. Seedr, a revolutionary cloud-based platform, has emerged as a game-changer in the world of torrenting. In this comprehensive article, we will delve into the features, benefits, and functionality of Seedr, exploring how it simplifies the torrenting experience and provides seamless downloading and streaming capabilities.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 19 Jun 2023 10:18:00 +0000</pubDate>
+        <link>
+        http://localhost:4000/Seedr</link>
+        <guid isPermaLink="true">http://localhost:4000/Seedr</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Magic Unleashed! - My Journey through the Interactive Harry Potter Universe with ChatGPT</title>
+        
+          <description>&lt;h1 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h1&gt;
+&lt;p&gt;Fictional universes have long been an intriguing theme for readers, one of which is the universe of magic. One big reason is the fact that we can experience a lot of events that aren’t possible in the real world. Well, who doesn’t know about the wizarding world, and the legendary Harry Potter. Many movies, games, and accessories have been created in order to connect to it. The craze has reached such a level that there are online and offline communities that discuss the possibilities of each character’s alternate decisions and thought processes, apart from those given in the original novels. And with the launch of the game Hogwarts Legacy, the number of discussions has just grown tremendously. The level of detail and the first-person experience that it delivers are immense! Yet it has some limitations; the universe is limited and pre-written. One can only interact with the objects and characters that are already there. So it is good to assume that at some point it is going to get boring, and that will occur once the players have explored almost everything in that limited world.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 30 May 2023 10:18:00 +0000</pubDate>
+        <link>
+        http://localhost:4000/Harry-Potter</link>
+        <guid isPermaLink="true">http://localhost:4000/Harry-Potter</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>CleanSweep - An Arch Linux tool to clean system, home directory cache, and duplicate files.</title>
+        
+          <description>&lt;h1 id=&quot;what-exactly-is-cleansweep--&quot;&gt;What exactly is CleanSweep ? :&lt;/h1&gt;
+&lt;p&gt;CleanSweep is a TUI program that helps newbie Arch Linux users to cleanup their system and clear up their precious memory. CleanSweep gives out a step by step process to user to the user with the ability for the user to skip a particular step.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 06 Jan 2023 10:18:00 +0000</pubDate>
+        <link>
+        http://localhost:4000/Cleansweep</link>
+        <guid isPermaLink="true">http://localhost:4000/Cleansweep</guid>
       </item>
       
     
@@ -26,29 +106,46 @@
       <item>
         <title>Rust gets included in the next linux kernel</title>
         
-          <description>&lt;p&gt;Rust will be utilized in the next version of the Linux kernel, according to Linux Torvalds, the operating system’s founder. Rust inclusion in Linux kernel development was a topic of discussion for several years before it was eventually settled.&lt;/p&gt;
+          <description>&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+&lt;p&gt;Rust will be utilized in the next version of the Linux kernel, according to Linux Torvalds, the operating system’s founder. Rust inclusion in Linux kernel development was a topic of discussion for several years before it was eventually settled.&lt;/p&gt;
 
 </description>
         
         <pubDate>Fri, 30 Sep 2022 10:18:00 +0000</pubDate>
         <link>
-        /Rust-in-Linux</link>
-        <guid isPermaLink="true">/Rust-in-Linux</guid>
+        http://localhost:4000/Rust-in-Linux</link>
+        <guid isPermaLink="true">http://localhost:4000/Rust-in-Linux</guid>
       </item>
       
     
       
       <item>
-        <title>Welcome to Ghost</title>
+        <title>Mine.com - Data Privacy</title>
         
-          <description>&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
+          <description>&lt;h1 id=&quot;data-privacy-&quot;&gt;Data Privacy :&lt;/h1&gt;
+&lt;p&gt;One of the concerns from the last few decades is data privacy. Our data is being sold to many companies right as we read this. One of the main examples that we can observe is the sheer amount of junk mail that we receive. There might be even companies with whom we haven’t even shared any details. There is no way we can completely avoid this situation, but we can shrink our digital footprint. One such method is by demanding these organizations to remove our data, through email. It can be a bit tedious as we have to manually list all these firms and send emails to each one of them.&lt;/p&gt;
 
 </description>
         
-        <pubDate>Thu, 27 Jul 2017 10:00:00 +0000</pubDate>
+        <pubDate>Tue, 30 Aug 2022 10:18:00 +0000</pubDate>
         <link>
-        /welcome</link>
-        <guid isPermaLink="true">/welcome</guid>
+        http://localhost:4000/Data-Privacy-copy</link>
+        <guid isPermaLink="true">http://localhost:4000/Data-Privacy-copy</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Welcome to TekPeek!</title>
+        
+          <description>&lt;p&gt;Hello, and welcome to TekPeek! Your gateway to exploring the tech world through fresh perspectives and hands-on insights!&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 27 Jul 2022 10:00:00 +0000</pubDate>
+        <link>
+        http://localhost:4000/welcome</link>
+        <guid isPermaLink="true">http://localhost:4000/welcome</guid>
       </item>
       
     
