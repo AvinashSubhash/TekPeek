@@ -6,7 +6,7 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper2/
+baseurl: /tekpeek/
 
 # Website info
 title: Tekpeek - Blogs
@@ -72,8 +72,8 @@ repo: jasper2
 branch: master
 relative_source: ../jasper2/
 destination: docs/
-production_url:  https://avinashsubhash.github.io/jasper2/
-source_url:  https://github.com/AvinashSubhash/jasper2/
+production_url:  https://avinashsubhash.github.io/tekpeek/
+source_url:  https://github.com/AvinashSubhash/tekpeek/
 
 exclude:
   - assets/css

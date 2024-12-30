@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="/jasper2/tag/posts-2023/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="/jasper2/" rel="alternate" type="text/html" />
-  <updated>2024-12-29T08:48:23+00:00</updated>
-  <id>/jasper2/tag/posts-2023/feed.xml</id>
+  <link href="/tekpeek/tag/posts-2023/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/tekpeek/" rel="alternate" type="text/html" />
+  <updated>2024-12-30T14:05:19+00:00</updated>
+  <id>/tekpeek/tag/posts-2023/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">TubeStore - Free Youtube Storage</title>
-      <link href="/jasper2/TubeStore" rel="alternate" type="text/html" title="TubeStore - Free Youtube Storage" />
+      <link href="/tekpeek/TubeStore" rel="alternate" type="text/html" title="TubeStore - Free Youtube Storage" />
       <published>2023-11-09T10:18:00+00:00</published>
       <updated>2023-11-09T10:18:00+00:00</updated>
-      <id>/jasper2/TubeStore</id>
-      <content type="html" xml:base="/jasper2/TubeStore">&lt;h1 id=&quot;cloud-storage&quot;&gt;Cloud Storage&lt;/h1&gt;
+      <id>/tekpeek/TubeStore</id>
+      <content type="html" xml:base="/tekpeek/TubeStore">&lt;h1 id=&quot;cloud-storage&quot;&gt;Cloud Storage&lt;/h1&gt;
 &lt;p&gt;Cloud storage subscriptions are in high demand due to the exponential growth of data generation. With the advent of digital technology, data production has increased tremendously, leading to a need for more storage capacity. You may have experienced a situation where your Google Drive or other cloud storage shows a warning of reaching its limits. To get more storage, you need to pay more, and this can be quite expensive.&lt;/p&gt;
 
 &lt;p&gt;Within these vast amounts of data, we often have some items that are not accessed frequently, but that we still need for possible future use or as a memory to keep with ourselves. However, you may not have considered YouTube’s storage and its growing number of content creators. YouTube handles a significant amount of data daily, mostly videos from these content creators, and it doesn’t charge any money for that. What if we could use that storage for our data too? Of course, we’re not trying to steal YouTube’s storage, but merely suggesting an idea of how we could make use of it.&lt;/p&gt;
@@ -91,11 +91,11 @@
   
     <entry>
       <title type="html">How to Make GRUB Remember Your Last Selection on Boot</title>
-      <link href="/jasper2/Grub-Boot-Selection" rel="alternate" type="text/html" title="How to Make GRUB Remember Your Last Selection on Boot" />
+      <link href="/tekpeek/Grub-Boot-Selection" rel="alternate" type="text/html" title="How to Make GRUB Remember Your Last Selection on Boot" />
       <published>2023-09-23T10:18:00+00:00</published>
       <updated>2023-09-23T10:18:00+00:00</updated>
-      <id>/jasper2/Grub-Boot-Selection</id>
-      <content type="html" xml:base="/jasper2/Grub-Boot-Selection">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+      <id>/tekpeek/Grub-Boot-Selection</id>
+      <content type="html" xml:base="/tekpeek/Grub-Boot-Selection">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
 &lt;p&gt;GRUB is an essential part of most Linux systems, responsible for managing the boot process and allowing you to choose which operating system to boot into when you start your computer. By default, GRUB usually selects the first entry in the boot menu. However, many users prefer to make GRUB remember their last selection to streamline the boot process. In this tutorial, we’ll walk you through the steps to configure GRUB to remember its last selection on boot.&lt;/p&gt;
 
 &lt;h2 id=&quot;step-1-opening-the-grub-configuration-file&quot;&gt;Step 1: Opening the GRUB Configuration File&lt;/h2&gt;
@@ -155,11 +155,11 @@
   
     <entry>
       <title type="html">Cloak and Commit - Concealing Confidential Data with Local Git Repositories in Linux</title>
-      <link href="/jasper2/Cloak-and-Commit" rel="alternate" type="text/html" title="Cloak and Commit - Concealing Confidential Data with Local Git Repositories in Linux" />
+      <link href="/tekpeek/Cloak-and-Commit" rel="alternate" type="text/html" title="Cloak and Commit - Concealing Confidential Data with Local Git Repositories in Linux" />
       <published>2023-06-30T00:00:00+00:00</published>
       <updated>2023-06-30T00:00:00+00:00</updated>
-      <id>/jasper2/Cloak-and-Commit</id>
-      <content type="html" xml:base="/jasper2/Cloak-and-Commit">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+      <id>/tekpeek/Cloak-and-Commit</id>
+      <content type="html" xml:base="/tekpeek/Cloak-and-Commit">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
 &lt;p&gt;In the world of version control systems, Git has emerged as a popular and versatile tool for managing source code. However, its capabilities extend beyond code management. In this article, we will explore a unique application of Git: using a local repository to hide sensitive data in Linux. By leveraging the branch and access control features of Git, we can create a secure environment where only the root user can access the hidden branch and its concealed files.&lt;/p&gt;
 
 &lt;h2 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h2&gt;
@@ -235,11 +235,11 @@ Accessing the Hidden Files&lt;/p&gt;
   
     <entry>
       <title type="html">Seedr - The Ultimate Cloud-Based Torrent Client for Seamless Downloading and Streaming</title>
-      <link href="/jasper2/Seedr" rel="alternate" type="text/html" title="Seedr - The Ultimate Cloud-Based Torrent Client for Seamless Downloading and Streaming" />
+      <link href="/tekpeek/Seedr" rel="alternate" type="text/html" title="Seedr - The Ultimate Cloud-Based Torrent Client for Seamless Downloading and Streaming" />
       <published>2023-06-19T10:18:00+00:00</published>
       <updated>2023-06-19T10:18:00+00:00</updated>
-      <id>/jasper2/Seedr</id>
-      <content type="html" xml:base="/jasper2/Seedr">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+      <id>/tekpeek/Seedr</id>
+      <content type="html" xml:base="/tekpeek/Seedr">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
 &lt;p&gt;In the digital age, torrents have become a popular way to share and distribute large files. However, traditional torrenting methods often require the download of files to a local computer, which can be cumbersome and time-consuming. Seedr, a revolutionary cloud-based platform, has emerged as a game-changer in the world of torrenting. In this comprehensive article, we will delve into the features, benefits, and functionality of Seedr, exploring how it simplifies the torrenting experience and provides seamless downloading and streaming capabilities.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -308,11 +308,11 @@ Additional Features: Seedr provides a range of other features to enhance the tor
   
     <entry>
       <title type="html">CleanSweep - An Arch Linux tool to clean system, home directory cache, and duplicate files.</title>
-      <link href="/jasper2/Cleansweep" rel="alternate" type="text/html" title="CleanSweep - An Arch Linux tool to clean system, home directory cache, and duplicate files." />
+      <link href="/tekpeek/Cleansweep" rel="alternate" type="text/html" title="CleanSweep - An Arch Linux tool to clean system, home directory cache, and duplicate files." />
       <published>2023-01-06T10:18:00+00:00</published>
       <updated>2023-01-06T10:18:00+00:00</updated>
-      <id>/jasper2/Cleansweep</id>
-      <content type="html" xml:base="/jasper2/Cleansweep">&lt;h1 id=&quot;what-exactly-is-cleansweep--&quot;&gt;What exactly is CleanSweep ? :&lt;/h1&gt;
+      <id>/tekpeek/Cleansweep</id>
+      <content type="html" xml:base="/tekpeek/Cleansweep">&lt;h1 id=&quot;what-exactly-is-cleansweep--&quot;&gt;What exactly is CleanSweep ? :&lt;/h1&gt;
 &lt;p&gt;CleanSweep is a TUI program that helps newbie Arch Linux users to cleanup their system and clear up their precious memory. CleanSweep gives out a step by step process to user to the user with the ability for the user to skip a particular step.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-did-i-create-this-tool-&quot;&gt;Why did I create this tool ?&lt;/h1&gt;

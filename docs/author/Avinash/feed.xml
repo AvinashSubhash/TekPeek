@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="/jasper2/author/Avinash/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="/jasper2/" rel="alternate" type="text/html" />
-  <updated>2024-12-29T08:48:23+00:00</updated>
-  <id>/jasper2/author/Avinash/feed.xml</id>
+  <link href="/tekpeek/author/Avinash/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/tekpeek/" rel="alternate" type="text/html" />
+  <updated>2024-12-30T14:05:19+00:00</updated>
+  <id>/tekpeek/author/Avinash/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">TubeStore - Free Youtube Storage</title>
-      <link href="/jasper2/TubeStore" rel="alternate" type="text/html" title="TubeStore - Free Youtube Storage" />
+      <link href="/tekpeek/TubeStore" rel="alternate" type="text/html" title="TubeStore - Free Youtube Storage" />
       <published>2023-11-09T10:18:00+00:00</published>
       <updated>2023-11-09T10:18:00+00:00</updated>
-      <id>/jasper2/TubeStore</id>
-      <content type="html" xml:base="/jasper2/TubeStore">&lt;h1 id=&quot;cloud-storage&quot;&gt;Cloud Storage&lt;/h1&gt;
+      <id>/tekpeek/TubeStore</id>
+      <content type="html" xml:base="/tekpeek/TubeStore">&lt;h1 id=&quot;cloud-storage&quot;&gt;Cloud Storage&lt;/h1&gt;
 &lt;p&gt;Cloud storage subscriptions are in high demand due to the exponential growth of data generation. With the advent of digital technology, data production has increased tremendously, leading to a need for more storage capacity. You may have experienced a situation where your Google Drive or other cloud storage shows a warning of reaching its limits. To get more storage, you need to pay more, and this can be quite expensive.&lt;/p&gt;
 
 &lt;p&gt;Within these vast amounts of data, we often have some items that are not accessed frequently, but that we still need for possible future use or as a memory to keep with ourselves. However, you may not have considered YouTube’s storage and its growing number of content creators. YouTube handles a significant amount of data daily, mostly videos from these content creators, and it doesn’t charge any money for that. What if we could use that storage for our data too? Of course, we’re not trying to steal YouTube’s storage, but merely suggesting an idea of how we could make use of it.&lt;/p&gt;
@@ -91,11 +91,11 @@
   
     <entry>
       <title type="html">How to Make GRUB Remember Your Last Selection on Boot</title>
-      <link href="/jasper2/Grub-Boot-Selection" rel="alternate" type="text/html" title="How to Make GRUB Remember Your Last Selection on Boot" />
+      <link href="/tekpeek/Grub-Boot-Selection" rel="alternate" type="text/html" title="How to Make GRUB Remember Your Last Selection on Boot" />
       <published>2023-09-23T10:18:00+00:00</published>
       <updated>2023-09-23T10:18:00+00:00</updated>
-      <id>/jasper2/Grub-Boot-Selection</id>
-      <content type="html" xml:base="/jasper2/Grub-Boot-Selection">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+      <id>/tekpeek/Grub-Boot-Selection</id>
+      <content type="html" xml:base="/tekpeek/Grub-Boot-Selection">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
 &lt;p&gt;GRUB is an essential part of most Linux systems, responsible for managing the boot process and allowing you to choose which operating system to boot into when you start your computer. By default, GRUB usually selects the first entry in the boot menu. However, many users prefer to make GRUB remember their last selection to streamline the boot process. In this tutorial, we’ll walk you through the steps to configure GRUB to remember its last selection on boot.&lt;/p&gt;
 
 &lt;h2 id=&quot;step-1-opening-the-grub-configuration-file&quot;&gt;Step 1: Opening the GRUB Configuration File&lt;/h2&gt;
@@ -155,11 +155,11 @@
   
     <entry>
       <title type="html">Cloak and Commit - Concealing Confidential Data with Local Git Repositories in Linux</title>
-      <link href="/jasper2/Cloak-and-Commit" rel="alternate" type="text/html" title="Cloak and Commit - Concealing Confidential Data with Local Git Repositories in Linux" />
+      <link href="/tekpeek/Cloak-and-Commit" rel="alternate" type="text/html" title="Cloak and Commit - Concealing Confidential Data with Local Git Repositories in Linux" />
       <published>2023-06-30T00:00:00+00:00</published>
       <updated>2023-06-30T00:00:00+00:00</updated>
-      <id>/jasper2/Cloak-and-Commit</id>
-      <content type="html" xml:base="/jasper2/Cloak-and-Commit">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+      <id>/tekpeek/Cloak-and-Commit</id>
+      <content type="html" xml:base="/tekpeek/Cloak-and-Commit">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
 &lt;p&gt;In the world of version control systems, Git has emerged as a popular and versatile tool for managing source code. However, its capabilities extend beyond code management. In this article, we will explore a unique application of Git: using a local repository to hide sensitive data in Linux. By leveraging the branch and access control features of Git, we can create a secure environment where only the root user can access the hidden branch and its concealed files.&lt;/p&gt;
 
 &lt;h2 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h2&gt;
@@ -235,11 +235,11 @@ Accessing the Hidden Files&lt;/p&gt;
   
     <entry>
       <title type="html">Seedr - The Ultimate Cloud-Based Torrent Client for Seamless Downloading and Streaming</title>
-      <link href="/jasper2/Seedr" rel="alternate" type="text/html" title="Seedr - The Ultimate Cloud-Based Torrent Client for Seamless Downloading and Streaming" />
+      <link href="/tekpeek/Seedr" rel="alternate" type="text/html" title="Seedr - The Ultimate Cloud-Based Torrent Client for Seamless Downloading and Streaming" />
       <published>2023-06-19T10:18:00+00:00</published>
       <updated>2023-06-19T10:18:00+00:00</updated>
-      <id>/jasper2/Seedr</id>
-      <content type="html" xml:base="/jasper2/Seedr">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+      <id>/tekpeek/Seedr</id>
+      <content type="html" xml:base="/tekpeek/Seedr">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
 &lt;p&gt;In the digital age, torrents have become a popular way to share and distribute large files. However, traditional torrenting methods often require the download of files to a local computer, which can be cumbersome and time-consuming. Seedr, a revolutionary cloud-based platform, has emerged as a game-changer in the world of torrenting. In this comprehensive article, we will delve into the features, benefits, and functionality of Seedr, exploring how it simplifies the torrenting experience and provides seamless downloading and streaming capabilities.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -308,11 +308,11 @@ Additional Features: Seedr provides a range of other features to enhance the tor
   
     <entry>
       <title type="html">Magic Unleashed! - My Journey through the Interactive Harry Potter Universe with ChatGPT</title>
-      <link href="/jasper2/Harry-Potter" rel="alternate" type="text/html" title="Magic Unleashed! - My Journey through the Interactive Harry Potter Universe with ChatGPT" />
+      <link href="/tekpeek/Harry-Potter" rel="alternate" type="text/html" title="Magic Unleashed! - My Journey through the Interactive Harry Potter Universe with ChatGPT" />
       <published>2023-05-30T10:18:00+00:00</published>
       <updated>2023-05-30T10:18:00+00:00</updated>
-      <id>/jasper2/Harry-Potter</id>
-      <content type="html" xml:base="/jasper2/Harry-Potter">&lt;h1 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h1&gt;
+      <id>/tekpeek/Harry-Potter</id>
+      <content type="html" xml:base="/tekpeek/Harry-Potter">&lt;h1 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h1&gt;
 &lt;p&gt;Fictional universes have long been an intriguing theme for readers, one of which is the universe of magic. One big reason is the fact that we can experience a lot of events that aren’t possible in the real world. Well, who doesn’t know about the wizarding world, and the legendary Harry Potter. Many movies, games, and accessories have been created in order to connect to it. The craze has reached such a level that there are online and offline communities that discuss the possibilities of each character’s alternate decisions and thought processes, apart from those given in the original novels. And with the launch of the game Hogwarts Legacy, the number of discussions has just grown tremendously. The level of detail and the first-person experience that it delivers are immense! Yet it has some limitations; the universe is limited and pre-written. One can only interact with the objects and characters that are already there. So it is good to assume that at some point it is going to get boring, and that will occur once the players have explored almost everything in that limited world.&lt;/p&gt;
 
 &lt;h1 id=&quot;ai-in-the-fictional-world&quot;&gt;AI in the fictional world&lt;/h1&gt;
@@ -360,11 +360,11 @@ Additional Features: Seedr provides a range of other features to enhance the tor
   
     <entry>
       <title type="html">CleanSweep - An Arch Linux tool to clean system, home directory cache, and duplicate files.</title>
-      <link href="/jasper2/Cleansweep" rel="alternate" type="text/html" title="CleanSweep - An Arch Linux tool to clean system, home directory cache, and duplicate files." />
+      <link href="/tekpeek/Cleansweep" rel="alternate" type="text/html" title="CleanSweep - An Arch Linux tool to clean system, home directory cache, and duplicate files." />
       <published>2023-01-06T10:18:00+00:00</published>
       <updated>2023-01-06T10:18:00+00:00</updated>
-      <id>/jasper2/Cleansweep</id>
-      <content type="html" xml:base="/jasper2/Cleansweep">&lt;h1 id=&quot;what-exactly-is-cleansweep--&quot;&gt;What exactly is CleanSweep ? :&lt;/h1&gt;
+      <id>/tekpeek/Cleansweep</id>
+      <content type="html" xml:base="/tekpeek/Cleansweep">&lt;h1 id=&quot;what-exactly-is-cleansweep--&quot;&gt;What exactly is CleanSweep ? :&lt;/h1&gt;
 &lt;p&gt;CleanSweep is a TUI program that helps newbie Arch Linux users to cleanup their system and clear up their precious memory. CleanSweep gives out a step by step process to user to the user with the ability for the user to skip a particular step.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-did-i-create-this-tool-&quot;&gt;Why did I create this tool ?&lt;/h1&gt;
@@ -409,11 +409,11 @@ Additional Features: Seedr provides a range of other features to enhance the tor
   
     <entry>
       <title type="html">Rust gets included in the next linux kernel</title>
-      <link href="/jasper2/Rust-in-Linux" rel="alternate" type="text/html" title="Rust gets included in the next linux kernel" />
+      <link href="/tekpeek/Rust-in-Linux" rel="alternate" type="text/html" title="Rust gets included in the next linux kernel" />
       <published>2022-09-30T10:18:00+00:00</published>
       <updated>2022-09-30T10:18:00+00:00</updated>
-      <id>/jasper2/Rust-in-Linux</id>
-      <content type="html" xml:base="/jasper2/Rust-in-Linux">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
+      <id>/tekpeek/Rust-in-Linux</id>
+      <content type="html" xml:base="/tekpeek/Rust-in-Linux">&lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt;
 &lt;p&gt;Rust will be utilized in the next version of the Linux kernel, according to Linux Torvalds, the operating system’s founder. Rust inclusion in Linux kernel development was a topic of discussion for several years before it was eventually settled.&lt;/p&gt;
 
 &lt;h1 id=&quot;what-exactly-is-rust-&quot;&gt;What exactly is Rust ?&lt;/h1&gt;
@@ -452,11 +452,11 @@ Additional Features: Seedr provides a range of other features to enhance the tor
   
     <entry>
       <title type="html">Mine.com - Data Privacy</title>
-      <link href="/jasper2/Data-Privacy-copy" rel="alternate" type="text/html" title="Mine.com - Data Privacy" />
+      <link href="/tekpeek/Data-Privacy-copy" rel="alternate" type="text/html" title="Mine.com - Data Privacy" />
       <published>2022-08-30T10:18:00+00:00</published>
       <updated>2022-08-30T10:18:00+00:00</updated>
-      <id>/jasper2/Data-Privacy%20copy</id>
-      <content type="html" xml:base="/jasper2/Data-Privacy-copy">&lt;h1 id=&quot;data-privacy-&quot;&gt;Data Privacy :&lt;/h1&gt;
+      <id>/tekpeek/Data-Privacy%20copy</id>
+      <content type="html" xml:base="/tekpeek/Data-Privacy-copy">&lt;h1 id=&quot;data-privacy-&quot;&gt;Data Privacy :&lt;/h1&gt;
 &lt;p&gt;One of the concerns from the last few decades is data privacy. Our data is being sold to many companies right as we read this. One of the main examples that we can observe is the sheer amount of junk mail that we receive. There might be even companies with whom we haven’t even shared any details. There is no way we can completely avoid this situation, but we can shrink our digital footprint. One such method is by demanding these organizations to remove our data, through email. It can be a bit tedious as we have to manually list all these firms and send emails to each one of them.&lt;/p&gt;
 
 &lt;h1 id=&quot;saymine&quot;&gt;SayMine&lt;/h1&gt;
@@ -495,11 +495,11 @@ Additional Features: Seedr provides a range of other features to enhance the tor
   
     <entry>
       <title type="html">Welcome to TekPeek!</title>
-      <link href="/jasper2/welcome" rel="alternate" type="text/html" title="Welcome to TekPeek!" />
+      <link href="/tekpeek/welcome" rel="alternate" type="text/html" title="Welcome to TekPeek!" />
       <published>2022-07-27T10:00:00+00:00</published>
       <updated>2022-07-27T10:00:00+00:00</updated>
-      <id>/jasper2/welcome</id>
-      <content type="html" xml:base="/jasper2/welcome">&lt;p&gt;Hello, and welcome to TekPeek! Your gateway to exploring the tech world through fresh perspectives and hands-on insights!&lt;/p&gt;
+      <id>/tekpeek/welcome</id>
+      <content type="html" xml:base="/tekpeek/welcome">&lt;p&gt;Hello, and welcome to TekPeek! Your gateway to exploring the tech world through fresh perspectives and hands-on insights!&lt;/p&gt;
 
 &lt;p&gt;At TekPeek, we’re all about diving deep into technology, sharing knowledge, and sparking curiosity. Here, you’ll find:&lt;/p&gt;
 
